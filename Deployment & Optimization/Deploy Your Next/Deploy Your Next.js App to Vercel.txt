@@ -1,0 +1,41 @@
+1. Push your project to GitHub
+
+If your project isn't already on GitHub:
+
+Open a terminal in your project folder:
+
+git init
+git add .
+git commit -m "Initial commit"
+
+Create a new repository on GitHub (for example, my-next-app), then connect it:
+
+git remote add origin https://github.com/YOUR_USERNAME/my-next-app.git
+git branch -M main
+git push -u origin main
+
+Replace YOUR_USERNAME with your GitHub username.
+
+2. Sign in to Vercel
+
+Go to:
+
+https://vercel.com
+
+Click Continue with GitHub and authorize Vercel to access your GitHub account.
+
+3. Import your repository
+Click Add New Project.
+Select your my-next-app repository.
+Click Import.
+
+Vercel automatically detects that it is a Next.js project.
+
+The default settings are usually correct:
+
+Framework Preset: Next.js
+Build Command: next build
+Output Directory: leave blank
+Install Command: npm install
+
+Click Deploy.
